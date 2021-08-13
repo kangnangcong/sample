@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sample
+  profiles:
+    include:
+      - database
+
+server:
+  shutdown: graceful
+
+management:
+  server:
+    port: 8081
